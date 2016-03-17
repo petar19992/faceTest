@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.google.android.gms.samples.vision.face.facetracker.ImagePreviewActivity">
+    <com.google.android.gms.samples.vision.face.facetracker.ui.camera.FaceOverlayView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/face_overlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</RelativeLayout>
